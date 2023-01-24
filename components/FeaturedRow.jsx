@@ -1,10 +1,15 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { ArrowRightIcon } from 'react-native-heroicons/outline'
+import { fontScale } from 'nativewind'
 
-const FeaturedRow = ({title, description, featuredCategory}) => {
+const FeaturedRow = ({title, description, id }) => {
   return (
     <View>
-      <Text>FeaturedRow</Text>
+      <View>
+        <Text style={{fontWeight: 'bold',fontSize: 18}}>{title}</Text>
+        <ArrowRightIcon />
+      </View>
     </View>
   )
 }
