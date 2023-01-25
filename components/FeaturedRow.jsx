@@ -21,34 +21,34 @@ const FeaturedRow = ({title, description, id }) => {
       className='pt-4'>
 
         <ResturauntCard 
-        id={123}
-        imgUrl="https://links.papareact.com/gn7"
-        title="YO! sushi"
+        id={1}
+        imgUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Johnny_Rockets_logo.svg/1200px-Johnny_Rockets_logo.svg.png"
+        title="Johny Rockets"
         rating={4.5}
-        genre="japanese"
-        address="123 Main st"
-        short_description="this is a test description"
+        genre="American"
+        address="hiteen block 4"
+        short_description="Enjoy Burgers and Sides"
         dishes={{}}
         long={20}
         lat={0}
         />
         <ResturauntCard 
-        id={123}
-        imgUrl="https://links.papareact.com/gn7"
-        title="YO! sushi"
-        rating={4.5}
-        genre="japanese"
-        address="123 Main st"
-        short_description="this is a test description"
+        id={2}
+        imgUrl="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/PizzaExpressBlack.svg/1200px-PizzaExpressBlack.svg.png"
+        title="Pizza Express"
+        rating={4}
+        genre="Italian"
+        address="Qadsyia street 40"
+        short_description="Try our Italian Pizza's!"
         dishes={{}}
         long={20}
         lat={0}
         />
         <ResturauntCard 
-        id={123}
-        imgUrl="https://links.papareact.com/gn7"
-        title="YO! sushi"
-        rating={4.5}
+        id={3}
+        imgUrl="http://cdn.shopify.com/s/files/1/0271/9347/5207/files/sm_sharing_logo_1200x1200.png?v=1613697297"
+        title="Arabica"
+        rating={4}
         genre="japanese"
         address="123 Main st"
         short_description="this is a test description"
