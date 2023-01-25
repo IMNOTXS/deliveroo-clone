@@ -49,21 +49,21 @@ const FeaturedRow = ({title, description, id }) => {
         imgUrl="http://cdn.shopify.com/s/files/1/0271/9347/5207/files/sm_sharing_logo_1200x1200.png?v=1613697297"
         title="Arabica"
         rating={4}
-        genre="japanese"
-        address="123 Main st"
-        short_description="this is a test description"
+        genre="Cafe"
+        address="Murooj mubarak al kabeer"
+        short_description="Want some coffee? Come and visit Us!!"
         dishes={{}}
         long={20}
         lat={0}
         />
         <ResturauntCard 
-        id={123}
-        imgUrl="https://links.papareact.com/gn7"
-        title="YO! sushi"
-        rating={4.5}
-        genre="japanese"
-        address="123 Main st"
-        short_description="this is a test description"
+        id={4}
+        imgUrl="https://images.deliveryhero.io/image/talabat/restaurants/WhatsApp_Image_2021-_637731824828084101.jpeg?width=300"
+        title="Like Burger"
+        rating={3.5}
+        genre="American"
+        address="hawalli 4th street"
+        short_description="Burgers and More!"
         dishes={{}}
         long={20}
         lat={0}
